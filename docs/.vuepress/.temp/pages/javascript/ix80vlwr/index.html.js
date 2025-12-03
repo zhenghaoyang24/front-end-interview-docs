@@ -1,0 +1,16 @@
+import comp from "D:/002-zhy-git/front-end-interview-docs/docs/.vuepress/.temp/pages/javascript/ix80vlwr/index.html.vue"
+const data = JSON.parse("{\"path\":\"/javascript/ix80vlwr/\",\"title\":\"模块化与工程化\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"模块化与工程化\",\"createTime\":\"2025/11/24 14:38:37\",\"permalink\":\"/javascript/ix80vlwr/\",\"outline\":2},\"readingTime\":{\"minutes\":5.23,\"words\":1568},\"git\":{},\"filePathRelative\":\"basic/JavaScript/8.模块与工程化.md\",\"headers\":[]}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
