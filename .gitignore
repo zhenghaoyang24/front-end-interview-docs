@@ -1,8 +1,7 @@
-/.vuepress/dist/
-/.vuepress/.temp/
-/.vuepress/.cache/
+/docs/.vuepress/dist/
+/docs/.vuepress/.temp/
+/docs/.vuepress/.cache/
 
 node_modules/
 
-# 编辑器/IDE
 .vscode/
