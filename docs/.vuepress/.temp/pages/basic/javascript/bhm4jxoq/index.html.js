@@ -1,16 +1,3 @@
 import comp from "D:/002-zhy-git/front-end-interview-docs/docs/.vuepress/.temp/pages/basic/javascript/bhm4jxoq/index.html.vue"
-const data = JSON.parse("{\"path\":\"/basic/javascript/bhm4jxoq/\",\"title\":\"基础语法与数据类型\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"基础语法与数据类型\",\"createTime\":\"2025/11/24 10:43:12\",\"permalink\":\"/basic/javascript/bhm4jxoq/\",\"outline\":2},\"readingTime\":{\"minutes\":5.61,\"words\":1683},\"git\":{},\"filePathRelative\":\"basic/3.JavaScript/1.基础语法与数据类型.md\",\"headers\":[]}")
+const data = JSON.parse("{\"path\":\"/basic/javascript/bhm4jxoq/\",\"title\":\"基础语法与数据类型\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"基础语法与数据类型\",\"createTime\":\"2025/11/24 10:43:12\",\"permalink\":\"/basic/javascript/bhm4jxoq/\",\"outline\":2,\"description\":\"变量声明 问题 变量声明的方式与它们的区别？ 在 JavaScript 中，有多种变量声明方式，主要包括使用 var、let、const 关键字，下面详细介绍它们及其区别。 1. var 特点 函数作用域：var 声明的变量为函数作用域，意味着在函数内部任何位置声明的 var 变量，在整个函数内部都是可见的。 变量提升：使用 var 声明的变量会被提升...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"基础语法与数据类型\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2025-12-03T08:52:34.000Z\\\",\\\"author\\\":[]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://interview.zhenghaoyang.cn/basic/javascript/bhm4jxoq/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"front-end-interview-docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"基础语法与数据类型\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"变量声明 问题 变量声明的方式与它们的区别？ 在 JavaScript 中，有多种变量声明方式，主要包括使用 var、let、const 关键字，下面详细介绍它们及其区别。 1. var 特点 函数作用域：var 声明的变量为函数作用域，意味着在函数内部任何位置声明的 var 变量，在整个函数内部都是可见的。 变量提升：使用 var 声明的变量会被提升...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}]]},\"readingTime\":{\"minutes\":5.61,\"words\":1683},\"git\":{\"createdTime\":1764751954000,\"updatedTime\":1764751954000,\"contributors\":[{\"name\":\"zhenghaoyang24\",\"username\":\"zhenghaoyang24\",\"email\":\"zhenghaoyang24@foxmail.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/zhenghaoyang24?v=4\",\"url\":\"https://github.com/zhenghaoyang24\"}]},\"autoDesc\":true,\"filePathRelative\":\"basic/3.JavaScript/1.基础语法与数据类型.md\",\"headers\":[]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

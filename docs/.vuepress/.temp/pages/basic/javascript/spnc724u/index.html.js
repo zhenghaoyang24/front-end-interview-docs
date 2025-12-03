@@ -1,16 +1,3 @@
 import comp from "D:/002-zhy-git/front-end-interview-docs/docs/.vuepress/.temp/pages/basic/javascript/spnc724u/index.html.vue"
-const data = JSON.parse("{\"path\":\"/basic/javascript/spnc724u/\",\"title\":\"编码与实现\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"编码与实现\",\"createTime\":\"2025/11/24 14:34:50\",\"permalink\":\"/basic/javascript/spnc724u/\",\"outline\":2},\"readingTime\":{\"minutes\":0.57,\"words\":172},\"git\":{},\"filePathRelative\":\"basic/3.JavaScript/6.编码与实现.md\",\"headers\":[]}")
+const data = JSON.parse("{\"path\":\"/basic/javascript/spnc724u/\",\"title\":\"编码与实现\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"编码与实现\",\"createTime\":\"2025/11/24 14:34:50\",\"permalink\":\"/basic/javascript/spnc724u/\",\"outline\":2,\"description\":\"代码执行结果1 下面的代码执行结果是什么？ 这段代码考察变量提升与优先级：函数声明会被提升到作用域顶部，var 也会被提升，但函数优先级更高，不会覆盖已经存在的同名函数声明。所以上面的代码在执行上下文阶段等效以下代码： foo 调用时指向的是函数声明。\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"编码与实现\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2025-12-03T08:52:34.000Z\\\",\\\"author\\\":[]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://interview.zhenghaoyang.cn/basic/javascript/spnc724u/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"front-end-interview-docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"编码与实现\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"代码执行结果1 下面的代码执行结果是什么？ 这段代码考察变量提升与优先级：函数声明会被提升到作用域顶部，var 也会被提升，但函数优先级更高，不会覆盖已经存在的同名函数声明。所以上面的代码在执行上下文阶段等效以下代码： foo 调用时指向的是函数声明。\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}]]},\"readingTime\":{\"minutes\":0.57,\"words\":172},\"git\":{\"createdTime\":1764751954000,\"updatedTime\":1764751954000,\"contributors\":[{\"name\":\"zhenghaoyang24\",\"username\":\"zhenghaoyang24\",\"email\":\"zhenghaoyang24@foxmail.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/zhenghaoyang24?v=4\",\"url\":\"https://github.com/zhenghaoyang24\"}]},\"autoDesc\":true,\"filePathRelative\":\"basic/3.JavaScript/6.编码与实现.md\",\"headers\":[]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

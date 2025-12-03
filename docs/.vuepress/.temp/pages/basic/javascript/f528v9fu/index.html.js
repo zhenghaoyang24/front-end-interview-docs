@@ -1,16 +1,3 @@
 import comp from "D:/002-zhy-git/front-end-interview-docs/docs/.vuepress/.temp/pages/basic/javascript/f528v9fu/index.html.vue"
-const data = JSON.parse("{\"path\":\"/basic/javascript/f528v9fu/\",\"title\":\"高级特性与API\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"高级特性与API\",\"createTime\":\"2025/11/24 14:34:03\",\"permalink\":\"/basic/javascript/f528v9fu/\",\"outline\":2},\"readingTime\":{\"minutes\":2.99,\"words\":897},\"git\":{},\"filePathRelative\":\"basic/3.JavaScript/5.高级特性与API.md\",\"headers\":[]}")
+const data = JSON.parse("{\"path\":\"/basic/javascript/f528v9fu/\",\"title\":\"高级特性与API\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"高级特性与API\",\"createTime\":\"2025/11/24 14:34:03\",\"permalink\":\"/basic/javascript/f528v9fu/\",\"outline\":2,\"description\":\"Proxy 能够监听对象中的对象的引用吗？ 问题 Proxy 能够监听对象中的对象的引用吗？ 不能直接监听。 Proxy 默认只代理对象的一层属性。如果对象的某个属性值本身是另一个对象（嵌套对象），那么对该嵌套对象 内部属性的读写操作，不会触发外层 Proxy 的拦截器（handler）， 因为嵌套对象本身 不是 Proxy，而是原始引用。 示例： 原...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"高级特性与API\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2025-12-03T08:52:34.000Z\\\",\\\"author\\\":[]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://interview.zhenghaoyang.cn/basic/javascript/f528v9fu/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"front-end-interview-docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"高级特性与API\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"Proxy 能够监听对象中的对象的引用吗？ 问题 Proxy 能够监听对象中的对象的引用吗？ 不能直接监听。 Proxy 默认只代理对象的一层属性。如果对象的某个属性值本身是另一个对象（嵌套对象），那么对该嵌套对象 内部属性的读写操作，不会触发外层 Proxy 的拦截器（handler）， 因为嵌套对象本身 不是 Proxy，而是原始引用。 示例： 原...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}]]},\"readingTime\":{\"minutes\":2.99,\"words\":897},\"git\":{\"createdTime\":1764751954000,\"updatedTime\":1764751954000,\"contributors\":[{\"name\":\"zhenghaoyang24\",\"username\":\"zhenghaoyang24\",\"email\":\"zhenghaoyang24@foxmail.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/zhenghaoyang24?v=4\",\"url\":\"https://github.com/zhenghaoyang24\"}]},\"autoDesc\":true,\"filePathRelative\":\"basic/3.JavaScript/5.高级特性与API.md\",\"headers\":[]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

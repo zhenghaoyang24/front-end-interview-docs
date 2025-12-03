@@ -1,16 +1,3 @@
 import comp from "D:/002-zhy-git/front-end-interview-docs/docs/.vuepress/.temp/pages/basic/javascript/01obwm1d/index.html.vue"
-const data = JSON.parse("{\"path\":\"/basic/javascript/01obwm1d/\",\"title\":\"异步与事件\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"异步与事件\",\"createTime\":\"2025/11/24 14:32:56\",\"permalink\":\"/basic/javascript/01obwm1d/\",\"outline\":2},\"readingTime\":{\"minutes\":7.32,\"words\":2196},\"git\":{},\"filePathRelative\":\"basic/3.JavaScript/4.异步与事件.md\",\"headers\":[]}")
+const data = JSON.parse("{\"path\":\"/basic/javascript/01obwm1d/\",\"title\":\"异步与事件\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"异步与事件\",\"createTime\":\"2025/11/24 14:32:56\",\"permalink\":\"/basic/javascript/01obwm1d/\",\"outline\":2,\"description\":\"不会冒泡的事件 问题 不会冒泡的事件有哪些？ 在 JavaScript 中，大多数事件都会按照 DMO 事件流模型冒泡，即事件会从目标元素开始向上冒泡到父元素。但也有一些事件直接在目标元素上触发，不会向上传播。 mouseenter 与 mouseover 问题 mouseenter 与 mouseover 有什么区别？ 示例说明 操作 & 输出： 鼠...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"异步与事件\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2025-12-03T08:52:34.000Z\\\",\\\"author\\\":[]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://interview.zhenghaoyang.cn/basic/javascript/01obwm1d/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"front-end-interview-docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"异步与事件\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"不会冒泡的事件 问题 不会冒泡的事件有哪些？ 在 JavaScript 中，大多数事件都会按照 DMO 事件流模型冒泡，即事件会从目标元素开始向上冒泡到父元素。但也有一些事件直接在目标元素上触发，不会向上传播。 mouseenter 与 mouseover 问题 mouseenter 与 mouseover 有什么区别？ 示例说明 操作 & 输出： 鼠...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}]]},\"readingTime\":{\"minutes\":7.32,\"words\":2196},\"git\":{\"createdTime\":1764751954000,\"updatedTime\":1764751954000,\"contributors\":[{\"name\":\"zhenghaoyang24\",\"username\":\"zhenghaoyang24\",\"email\":\"zhenghaoyang24@foxmail.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/zhenghaoyang24?v=4\",\"url\":\"https://github.com/zhenghaoyang24\"}]},\"autoDesc\":true,\"filePathRelative\":\"basic/3.JavaScript/4.异步与事件.md\",\"headers\":[]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

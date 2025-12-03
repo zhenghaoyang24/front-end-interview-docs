@@ -1,16 +1,3 @@
 import comp from "D:/002-zhy-git/front-end-interview-docs/docs/.vuepress/.temp/pages/framework/vue/index.html.vue"
-const data = JSON.parse("{\"path\":\"/framework/vue/\",\"title\":\"问题列表\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"问题列表\",\"createTime\":\"2025/12/03 16:00:07\",\"permalink\":\"/framework/vue/\"},\"readingTime\":{\"minutes\":0.04,\"words\":12},\"git\":{},\"filePathRelative\":\"framework/1.vue/0.问题列表.md\",\"headers\":[]}")
+const data = JSON.parse("{\"path\":\"/framework/vue/\",\"title\":\"问题列表\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"问题列表\",\"createTime\":\"2025/12/03 16:00:07\",\"permalink\":\"/framework/vue/\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"问题列表\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2025-12-03T08:52:34.000Z\\\",\\\"author\\\":[]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://interview.zhenghaoyang.cn/framework/vue/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"front-end-interview-docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"问题列表\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}]]},\"readingTime\":{\"minutes\":0.04,\"words\":12},\"git\":{\"createdTime\":1764751954000,\"updatedTime\":1764751954000,\"contributors\":[{\"name\":\"zhenghaoyang24\",\"username\":\"zhenghaoyang24\",\"email\":\"zhenghaoyang24@foxmail.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/zhenghaoyang24?v=4\",\"url\":\"https://github.com/zhenghaoyang24\"}]},\"filePathRelative\":\"framework/1.vue/0.问题列表.md\",\"headers\":[]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

@@ -1,16 +1,3 @@
 import comp from "D:/002-zhy-git/front-end-interview-docs/docs/.vuepress/.temp/pages/framework/vue/dykkuon7/index.html.vue"
-const data = JSON.parse("{\"path\":\"/framework/vue/dykkuon7/\",\"title\":\"v-if 与 v-show 的区别\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"v-if 与 v-show 的区别\",\"createTime\":\"2025/02/05 13:40:53\",\"permalink\":\"/framework/vue/dykkuon7/\"},\"readingTime\":{\"minutes\":1.95,\"words\":586},\"git\":{},\"filePathRelative\":\"framework/1.vue/v-if 与 v-show 的区别.md\",\"headers\":[]}")
+const data = JSON.parse("{\"path\":\"/framework/vue/dykkuon7/\",\"title\":\"v-if 与 v-show 的区别\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"v-if 与 v-show 的区别\",\"createTime\":\"2025/02/05 13:40:53\",\"permalink\":\"/framework/vue/dykkuon7/\",\"description\":\"问题 v-if 与 v-show的区别？ v-if 和 v-show 都是 Vue.js 中用于控制元素显示与隐藏的指令，但它们在实现方式、性能表现和使用场景上存在明显区别。 1. 实现方式 v-if：是一种条件渲染指令，它会根据表达式的值的真假来动态地添加或移除 DOM 元素。当表达式的值为 true 时，元素会被插入到 DOM 中；当表达式的值为 ...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"v-if 与 v-show 的区别\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2025-12-03T08:52:34.000Z\\\",\\\"author\\\":[]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://interview.zhenghaoyang.cn/framework/vue/dykkuon7/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"front-end-interview-docs\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"v-if 与 v-show 的区别\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"问题 v-if 与 v-show的区别？ v-if 和 v-show 都是 Vue.js 中用于控制元素显示与隐藏的指令，但它们在实现方式、性能表现和使用场景上存在明显区别。 1. 实现方式 v-if：是一种条件渲染指令，它会根据表达式的值的真假来动态地添加或移除 DOM 元素。当表达式的值为 true 时，元素会被插入到 DOM 中；当表达式的值为 ...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2025-12-03T08:52:34.000Z\"}]]},\"readingTime\":{\"minutes\":1.95,\"words\":586},\"git\":{\"createdTime\":1764751954000,\"updatedTime\":1764751954000,\"contributors\":[{\"name\":\"zhenghaoyang24\",\"username\":\"zhenghaoyang24\",\"email\":\"zhenghaoyang24@foxmail.com\",\"commits\":1,\"avatar\":\"https://avatars.githubusercontent.com/zhenghaoyang24?v=4\",\"url\":\"https://github.com/zhenghaoyang24\"}]},\"autoDesc\":true,\"filePathRelative\":\"framework/1.vue/v-if 与 v-show 的区别.md\",\"headers\":[]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
