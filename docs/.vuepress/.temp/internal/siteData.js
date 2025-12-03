@@ -1,1 +1,0 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"front-end-interview-docs\",\"description\":\"Front-end interview questions documents.\",\"head\":[[\"link\",{\"rel\":\"icon\",\"type\":\"image/svg+xml\",\"href\":\"logo.svg\"}]],\"locales\":{}}")

@@ -1,1 +1,0 @@
-export const collections = {"/":[{"type":"doc","dir":"about","linkPrefix":"/about","title":"关于项目"},{"type":"doc","dir":"basic","linkPrefix":"/basic","title":"前端基础"},{"type":"doc","dir":"framwork","linkPrefix":"/framwork","title":"框架生态"}]}
